@@ -1,0 +1,15 @@
+Metodo registra:
+	parametri:username(string),password(string),rpassword(string)
+	i valori di ritorno sono:
+		1:se l'utente è stato riconosciuto
+		-1:se è fallito
+Metodo Reset:
+	parametri:String pswVecchia,String pswNuova,String PswVecchiaSalvata
+	i valori di ritorno sono: true false
+Metodo login:
+	String user, String password
+	return:
+	1:password giusta
+	2:sbagliata
+	3:registrato
+	
