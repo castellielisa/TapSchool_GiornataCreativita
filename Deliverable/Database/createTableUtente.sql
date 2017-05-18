@@ -1,0 +1,7 @@
+CREATE TABLE Utente(
+	Username VARCHAR(32) PRIMARY KEY,
+	Nome 	 VARCHAR(32) NOT NULL,
+	Cognome  VARCHAR(32) NOT NULL,
+	Mail	 VARCHAR(32) NOT NULL,
+	Password CHAR(32) 	 NOT NULL
+)
